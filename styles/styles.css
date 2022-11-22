@@ -5,6 +5,9 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,11 +19,12 @@ body {
   background-color: aqua;
   border: 1px solid black;
   border-radius: 10px;
-  height: 300px;
-  width: 300px;
+  min-height: 300px;
+  min-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 label,
