@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-white: #fff;
+  --font-dark: #000;
+  --form-bg: hsla(211, 100%, 25%, 0.47);
+  --main-bg: #6b7094;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,10 +20,11 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: var(--main-bg);
 }
 
 .form-container {
-  background-color: aqua;
+  background-color: var(--form-bg);
   border: 1px solid black;
   border-radius: 10px;
   min-height: 300px;
@@ -34,4 +42,13 @@ input {
 
 input {
   border-radius: 10px;
+}
+
+.clear,
+.lucky {
+  display: inline-block;
+}
+
+.clear {
+  margin-left: 1rem;
 }
