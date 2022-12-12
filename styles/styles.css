@@ -53,3 +53,9 @@ input {
 .clear {
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 400px) {
+  button {
+    padding: 10px 32px;
+  }
+}

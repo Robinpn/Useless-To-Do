@@ -58,7 +58,6 @@ const luckyArr = [
   'stryka Sängen',
   'tvätta Hunden',
   'torka Disken',
-  'diska Maten',
   'skura Fönster',
 ];
 
