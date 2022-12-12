@@ -10,11 +10,12 @@ copy the code from github and install on your local IDE
 
 # Code Review
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `fonts.css` - Du hade inte behövt ha alla de olika fonterna om du bara använder en av de.
+1. `style.css: 9,27,37` - Kan vara bra att ta bort utkommenterad kod (den används ju ändå inte..) för att det ska vara lättare att hänga med i koden.
+1. `style.css: 60` - Tänk på att börja koda till mobile first. Nu verkade det som att att du har kodat desktop först.
+1. `hemsidan` - Hade velat ha en knapp för att lägga till saker på listan för tydligheten skull. Alltså inte bara trycka på enter.
+1. `script.js: 84` - Du behöver inte ha med console.log.
+1. `script.js` - Önskar lite fler kommtarer för att lättare hänga med i koden.
 
 # Testers
 
