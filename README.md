@@ -20,5 +20,5 @@ copy the code from github and install on your local IDE
 
 Tested by the following people:
 
-1. Jane Doe
+1. Simon Lövbacka
 2. John Doe
