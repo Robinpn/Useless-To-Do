@@ -1,12 +1,12 @@
 <img src="https://media.giphy.com/media/SwUpEicey6NNtGO4G2/giphy.gif" width="100%">
 
-# Project Title
+# Useless todo list
 
-Text about the project. This would also be a great place to link the game on Netlify.
+A website designed to help people never get anything done!
 
 # Installation
 
-Add the installation instructions.
+copy the code from github and install on your local IDE
 
 # Code Review
 
