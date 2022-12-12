@@ -57,7 +57,7 @@ input {
   margin-left: 1rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   button {
     padding: 10px 32px;
   }
