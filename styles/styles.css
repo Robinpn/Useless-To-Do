@@ -6,22 +6,25 @@
   --font-white: #fff;
   --font-dark: #000;
   --form-bg: hsla(211, 100%, 25%, 0.47);
-  --main-bg: #6b7094;
+  /* --main-bg: #6b7094; */
+  --main-bg: linear-gradient(to right, purple, blue);
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Work Sans normal', sans-serif;
+  background-image: var(--main-bg);
+  text-align: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--main-bg);
+  background-image: var(--main-bg);
+  /* background-color: red; */
 }
 
 .form-container {
@@ -31,7 +34,7 @@ main {
   min-height: 300px;
   min-width: 300px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
