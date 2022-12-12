@@ -58,4 +58,7 @@ input {
   button {
     padding: 10px 32px;
   }
+  li {
+    font-size: 1.2rem;
+  }
 }
