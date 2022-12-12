@@ -2,6 +2,8 @@
 
 # Useless todo list
 
+link to the website: https://useless-to-do.netlify.app/
+
 A website designed to help people never get anything done!
 
 # Installation
