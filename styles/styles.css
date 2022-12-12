@@ -6,7 +6,6 @@
   --font-white: #fff;
   --font-dark: #000;
   --form-bg: hsla(211, 100%, 25%, 0.47);
-  /* --main-bg: #6b7094; */
   --main-bg: linear-gradient(to right, purple, blue);
 }
 
@@ -24,7 +23,6 @@ main {
   align-items: center;
   min-height: 100vh;
   background-image: var(--main-bg);
-  /* background-color: red; */
 }
 
 .form-container {
@@ -34,7 +32,6 @@ main {
   min-height: 300px;
   min-width: 300px;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }

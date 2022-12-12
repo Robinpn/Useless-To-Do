@@ -1,4 +1,4 @@
-// variables
+// global variables
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const uList = document.querySelector('ul');
@@ -14,6 +14,7 @@ duplaicateBtn.addEventListener('click', () => {
   });
 });
 
+// add the li elements to the DOM
 const addItem = (text) => {
   const li = document.createElement('li');
   li.classList.add('item');
@@ -61,6 +62,7 @@ const luckyArr = [
   'skura Fönster',
 ];
 
+// add the lucky array to the DOM
 const luckyPrint = () => {
   luckyBtn.addEventListener('click', () => {
     luckyArr.forEach((random) => {
@@ -69,6 +71,7 @@ const luckyPrint = () => {
   });
 };
 
+// submit the form and print out the li
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const userInput = input.value;
@@ -81,7 +84,6 @@ form.addEventListener('submit', (e) => {
       /["a""e""i""o""u""y""å""ä""ö""A""E""I""O""U""Y""Å""Ä""Ö"]/g,
       getConsonant(consonant)
     );
-    console.log(newString);
     return newString;
   };
 
